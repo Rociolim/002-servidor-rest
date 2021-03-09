@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
  
 app.get('/', function (req, res) {
-  res.send('<h1> Bienvenido a Usuarios</h1>');
+  res.send('<h1> Bienvenido a mi servidor REST(kocalhost)</h1>');
 });
 
 app.get('/usuario', function(req, res) {
